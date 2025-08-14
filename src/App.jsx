@@ -1,4 +1,6 @@
 import './index.css'
+import picture1 from '/images/shops.png'
+import picture2 from '/images/shoe_image.png'
 
 
 const App = () => {
@@ -18,12 +20,12 @@ const App = () => {
                     <div className="mt-[30px]">
                         <h2 className="font-[400] text-[#5A5959]">Also Available On</h2>
                         <div className="mt-[10px]">
-                            <img src="/images/shops.png" alt="picture" />
+                            <img src={picture1} alt="picture" />
                         </div>
                     </div>
                 </div>
                 <div className="content-center mt-[100px]">
-                    <img src="/images/shoe_image.png" alt="picture" />
+                    <img src={picture2} alt="picture" />
                 </div>
             </div>
                 

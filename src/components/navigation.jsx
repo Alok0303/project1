@@ -1,8 +1,10 @@
+import logo from '/images/brand_logo.png'
+
 const Navigation = () => {
     return (
         <nav className="flex justify-between pt-[1rem] pb-[1rem]">
             <div className="ml-[100px]">
-                <img src="/images/brand_logo.png" alt="logo" />
+                <img src={logo} alt="Logo" />
             </div>
             <div className="flex flex-row">
                     <p className="px-[1rem] font-bold" href="#">Menu</p>
